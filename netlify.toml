@@ -4,4 +4,4 @@
   # If not set, defaults to the root directory.
   base = "travel-blog/"
 
-    publish = "travel-blog/"
+  publish = "travel-blog/public"
