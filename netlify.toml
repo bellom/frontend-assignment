@@ -3,3 +3,5 @@
   # This is where we will look for package.json/.nvmrc/etc.
   # If not set, defaults to the root directory.
   base = "travel-blog/"
+
+    publish = "travel-blog/"
