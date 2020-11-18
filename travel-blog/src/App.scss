@@ -19,6 +19,10 @@ $medium-breakpoint: 960px;
   }
 }
 
+/* ******************************
+Nav
+****************************** */
+
 nav {
   background-color: $primary-light;
   display: flex;
@@ -64,8 +68,20 @@ button {
   width: 52px;
 }
 
-// ------------------------------------------
+@media only screen and (min-width: 258px) and (max-width: 650px) {
+  .nav__header {
+    margin-left: 10px;
+  }
 
+  .nav__link {
+    margin-right: 10px;
+  }
+  
+}
+
+/* ******************************
+Main
+****************************** */
 main {
   margin: 0px 50px 0 50px;
 }
@@ -93,6 +109,7 @@ section {
 
 article {
   width: 60%;
+  padding-bottom: 50px;
 }
 
 article p {
@@ -101,9 +118,25 @@ article p {
  font-weight: 400;
 }
 
+@media only screen and (min-width: 258px) and (max-width: 650px) {
+  .headshot {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 0 5px;
+  }
+}
 
-// ------------------------------------------
+@media only screen and (min-width: 650px) and (max-width: 1300px) {
+  .headshot {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0 0 5px;
+  }
+}
 
+/* ******************************
+Footer
+****************************** */
 
 footer {
   background-color: $primary;
@@ -130,4 +163,32 @@ li:last-child {
 
 li {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 258px) and (max-width: 650px) {
+  ul {
+    margin: 12px 0 0 8px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  li:first-child {
+    margin-right: 80px;
+  }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1200px) {
+  ul {
+    margin: 12px 0 0 8px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  li:first-child {
+    margin-right: 300px;
+  }
 }
