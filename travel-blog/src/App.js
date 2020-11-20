@@ -10,7 +10,7 @@ function App() {
       <nav>
         <div className="nav__header">
           <div>Travelize</div>
-          <span><i>My travelling experiences</i></span>
+          <p><i>My traveling experiences</i></p>
         </div>
         <div className="nav__link">
           <span>Home</span>
