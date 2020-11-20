@@ -26,7 +26,7 @@ Nav
 nav {
   background-color: $primary-light;
   display: flex;
-  height: 45px;
+  height: 50px;
   justify-content: space-between;
   padding: 0 40px 0 40px;
   width: 100%;
@@ -52,20 +52,26 @@ nav {
   margin-top: -10px;
 }
 
-.nav__link span {
-  margin: 25px 0 0 10px;
-  font-size: 12px;
+.nav__link ul li {
+  color: #333;
+  font-size: 13px;
+  margin: 12px 0 0 10px;
 }
 
-button {
+.nav__link ul li:first-child {
+  margin-right: 11px;
+}
+
+.nav__link ul li:last-child {
   background: $primary;
-  border-radius: 12%;
+  border-radius: 7%;
   border-color: $primary;
   color: $primary-light;
-  font-size: 12px;
-  margin: 19px 0 0 10px;
-  height: 27px;
-  width: 52px;
+  font-size: 13px;
+  margin: 8px 0 0 10px;
+  height: 26px;
+  width: 60px;
+  padding: 4px 0 1px 11px;
 }
 
 @media only screen and (min-width: 258px) and (max-width: 650px) {

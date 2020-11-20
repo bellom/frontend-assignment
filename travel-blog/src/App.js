@@ -13,15 +13,15 @@ function App() {
           <p><i>My traveling experiences</i></p>
         </div>
         <div className="nav__link">
-          <span>Home</span>
-          <span>Blog</span>
-          <button>About</button>
+          <ul>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About</li>
+          </ul>
         </div>
       </nav>
       <main>
-        <section>
           <img className="hero-background" src={ heroBackground } alt="hero-background" />
-        </section>
         <section>
           <div className="headshot__div"><img className="headshot" src={ headshot} alt="headshot"/></div>
           <article>
