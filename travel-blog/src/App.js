@@ -21,7 +21,7 @@ function App() {
         </div>
       </nav>
       <main>
-          <img className="hero-background" src={ heroBackground } alt="hero-background" />
+        <img className="hero-background" src={ heroBackground } alt="hero-background" />
         <section>
           <div className="headshot__div"><img className="headshot" src={ headshot} alt="headshot"/></div>
           <article>

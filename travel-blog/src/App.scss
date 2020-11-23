@@ -12,12 +12,13 @@ $primary-light: #EEF5FE;
 $small-breakpoint: 500px;
 $medium-breakpoint: 960px;
 
+$flex : flex;
+
 .app {
   * {
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
   }
-}
 
 /* ******************************
 Nav
@@ -25,7 +26,7 @@ Nav
 
 nav {
   background-color: $primary-light;
-  display: flex;
+  display: $flex;
   height: 50px;
   justify-content: space-between;
   padding: 0 40px 0 40px;
@@ -47,13 +48,13 @@ nav {
 }
 
 .nav__link {
-  display: flex;
+  display: $flex;
   margin-right: 150px;
   margin-top: -10px;
 }
 
 .nav__link ul li {
-  color: #333;
+  color: $gray;
   font-size: 13px;
   margin: 12px 0 0 10px;
 }
@@ -93,7 +94,7 @@ main {
 }
 
 section {
-  display: flex;
+  display: $flex;
 }
 
 .hero-background {
@@ -119,7 +120,6 @@ article {
 }
 
 article p {
- font-family: monospace;
  font-size: small;
  font-weight: 400;
 }
@@ -154,7 +154,7 @@ footer {
 
 ul {
   color: $primary-light;
-  display: flex;
+  display: $flex;
   list-style-type: none;
   margin-left: 135px;
 }
@@ -197,4 +197,5 @@ li {
   li:first-child {
     margin-right: 300px;
   }
+}
 }
